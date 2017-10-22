@@ -22,8 +22,6 @@
 //!     assert_eq!(codec.decode(&mut buf).unwrap(), None);
 //! }
 //! ```
-#![cfg_attr(feature="clippy", feature(plugin))]
-#![cfg_attr(feature="clippy", plugin(clippy))]
 extern crate bytes;
 extern crate tokio_io;
 

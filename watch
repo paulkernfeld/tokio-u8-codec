@@ -4,6 +4,5 @@ set -e
 cargo watch -w src \
             -x "test --lib" \
             -x "test --doc" \
-            -x "build --features clippy" \
-            -x "fmt -- --write-mode=diff" \
-            -x "readme -o README.md"
+            -x clippy \
+            -x "fmt -- --write-mode=diff"

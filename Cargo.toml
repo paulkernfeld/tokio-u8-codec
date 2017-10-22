@@ -10,5 +10,4 @@ repository = "https://github.com/paulkernfeld/tokio-u8-codec"
 
 [dependencies]
 bytes    = "0.4"
-clippy = {version = "*", optional = true}
 tokio-io = "0.1"

@@ -3,6 +3,6 @@ set -e
 
 cargo test --lib
 cargo test --doc
-cargo build --features clippy
+cargo clippy
 cargo fmt -- --write-mode=diff
 cargo readme -o README.md
